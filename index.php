@@ -30,8 +30,8 @@
     <div class="container-fluid">
         <!-- name bar-->
         <nav class="navbar navbar-light bg-light justify-content-between">
-            <a class="navbar-brand" href="about.php">
-              <img src="/f1_images/fia_logo.png" width="50" height="40" alt="" class="d-inline-block align-top mx-2">Fédération Internationale de l'Automobile
+            <a class="navbar-brand" href="index.php">
+              <img src="fia_logo.png" width="50" height="40" alt="" class="d-inline-block align-top mx-2">Fédération Internationale de l'Automobile
             </a>
             <form class="form-inline">
                <input type="button" class="btn btn-danger my-2 my-sm-0" onclick="login_page()" value="Login"/>
@@ -43,14 +43,14 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand text-light" href="about.php"><img src="f1 logo.png" width="40" height="30" class="d-inline-block align-top mx-2">Formula 1</a>
+      <a class="navbar-brand text-light" href="index.php"><img src="f1 logo.png" width="40" height="30" class="d-inline-block align-top mx-2">Formula 1</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="true" href="about.php">Home</a>
+            <a class="nav-link active text-light" aria-current="true" href="index.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-light" href="teams.php">Teams</a>
@@ -117,18 +117,20 @@
 
 <script>
 function login_page(){
-    window.location.replace("http://localhost/ip/login.php");
+    window.location.replace("https://f1foryou.000webhostapp.com/login.php");
+   
+    //header('location:/public_html/login.php');
 }
 
 function register_page(){
-    window.location.replace("http://localhost/ip/register.php");
+    window.location.replace(" https://f1foryou.000webhostapp.com/register.php");
 }
 </script>
 <script>
   $(document).ready(function(){
     $("#for_fun").click(function(){
       alert("login before you see the meme page");
-      window.location.replace("http://localhost/ip/login.php");
+      window.location.replace("https://f1foryou.000webhostapp.com/login.php);
       
     });
   });
