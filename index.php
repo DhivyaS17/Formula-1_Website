@@ -56,7 +56,7 @@
             <a class="nav-link text-light" href="teams.php">Teams</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="ada_pongada.php">Race</a>
+            <a class="nav-link text-light" href="race_details.php">Race</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-light" href="f1_slang.php">Terminologies</a>
